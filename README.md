@@ -1202,7 +1202,47 @@ adb-secure-email-delivery/
     ├── security-comparison.md
     ├── troubleshooting.md
     └── screenshots/
-        ├── README.md
+        ├── 003-domain-active.jpg
+        ├── 004-basicdns-enabled.jpg
+        ├── 006-dns-before-oci-configuration.jpg
+        ├── 007-email-forwarding-configured.jpg
+        ├── 010-create-email-domain.jpg
+        ├── 012-create-dkim-key.jpg
+        ├── 013-dkim-dns-record-generated.jpg
+        ├── 014-oci-spf-and-dkim-records.jpg
+        ├── 015-dkim-active.jpg
+        ├── 016-email-domain-authentication-active.jpg
+        ├── 017-approved-domain-sender-active.jpg
+        ├── 018-create-email-senders-group.jpg
+        ├── 019-email-senders-group-created.jpg
+        ├── 022-email-sender-policy-created.jpg
+        ├── 023-smtp-credential-created.jpg
+        ├── 025-dbms-cloud-notification-send-message.jpg
+        ├── 030-dbms-cloud-notification-message.jpg
+        ├── 035-email-authentication-results.jpg
+        ├── 040-dbms-cloud-notification-send-data.jpg
+        ├── 045-query-results-email.jpg
+        ├── 050-query-results-csv.jpg
+        ├── 055-utl-smtp-set-credential.jpg
+        ├── 060-utl-smtp-set-credential-email-marked-spam.jpg
+        ├── 065-utl-smtp-rfc-message-sent.jpg
+        ├── 070-utl-smtp-rfc-message.jpg
+        ├── 075-dmarc-dns-resolution.jpg
+        ├── 080-dmarc-pass.jpg
+        ├── 085-utl-smtp-auth-sent.jpg
+        ├── 090-utl-smtp-auth-email.jpg
+        ├── 095-utl-smtp-auth-authentication-results.jpg
+        ├── 100-utl-smtp-html-utf8-sent.jpg
+        ├── 105-utl-smtp-html-utf8-email.jpg
+        ├── 110-utl-smtp-html-utf8-authentication.jpg
+        ├── 115-utl-smtp-cc-bcc-email.jpg
+        ├── 120-utl-smtp-bcc-hotmail-delivered.jpg
+        ├── 125-outlook-bcc-authentication-results_pass.jpg
+        ├── 130-outlook-bcc-authentication-results_SCL5.jpg
+        ├── 135-dbms-cloud-notification-cc-bcc-utf8-sent.jpg
+        ├── 140-dbms-cloud-notification-cc-bcc-utf8.jpg
+        ├── 145-utl-smtp-mime-attachment.jpg
+        └── 150-utl-smtp-csv-content.jpg
 ```
 
 The SQL filenames preserve the sequence in which the lab examples were created and tested. The `docs` directory contains the infrastructure, protocol, security, and troubleshooting explanations so that the README can stay focused on the complete lab flow.
