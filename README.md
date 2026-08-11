@@ -143,47 +143,6 @@ This is the higher-level path in the project. `UTL_SMTP` is the lower-level path
 
 ---
 
-## Why a custom domain is part of the lab
-
-Sending email involves more than an SMTP username and password.
-
-For this project, the domain:
-
-```text
-lslabsessions.com
-```
-
-was acquired for the LS Lab Sessions environment.
-
-The root domain is also used for inbound email forwarding:
-
-```text
-info@lslabsessions.com
-        ↓
-email forwarding
-        ↓
-receiving mailbox
-```
-
-For outbound email from Autonomous Database, the lab uses a dedicated sending subdomain:
-
-```text
-mail.lslabsessions.com
-```
-
-Example senders are:
-
-```text
-adb@mail.lslabsessions.com
-reports@mail.lslabsessions.com
-```
-
-Using a dedicated sending subdomain keeps the OCI Email Delivery DNS configuration separate from the root domain and its existing forwarding configuration.
-
-The DNS provider used in this lab is Namecheap, but the same concepts apply with another DNS provider.
-
----
-
 ## What was configured in OCI
 
 The lab does not begin in PL/SQL.
