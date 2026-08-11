@@ -423,9 +423,9 @@ Each layer solves a different problem. That distinction is important throughout 
         │                   │
 DBMS_CLOUD_NOTIFICATION   UTL_SMTP
         │                   │
-        │             AUTH
-        │               or
-        │          SET_CREDENTIAL
+        │                  AUTH
+        │                   or
+        │              SET_CREDENTIAL
         │                   │
         └─────────┬─────────┘
                   │
