@@ -664,21 +664,21 @@ The SMTP sequence is:
 ```text
 OPEN_CONNECTION
       ↓
-EHLO
+    EHLO
       ↓
-STARTTLS
+    STARTTLS
       ↓
-EHLO
+    EHLO
       ↓
-SET_CREDENTIAL
+    SET_CREDENTIAL
       ↓
-MAIL
+    MAIL
       ↓
-RCPT
+    RCPT
       ↓
-DATA
+    DATA
       ↓
-QUIT
+    QUIT
 ```
 
 The second `EHLO` is intentional. After the TLS upgrade, the client obtains the SMTP capabilities again before authentication.
